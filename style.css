@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body
+{
+    
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+    background-image: url("office.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-left: 2%;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    
+
+}
+
+div.frame
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+    font-family: 'Faster One', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+div.main
+{
+    background-color: hsla(0, 0%, 100%, 0.8);
+    width: 85%;;
+}
+
+div.intro
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    color: rgb(68, 68, 68);
+}
+
+div.summary
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    color: rgb(76, 0, 139);
+}
+
+div.lists
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    padding-top: 2%;
+    color: rgb(0, 158, 66);
+}
+
+div.title
+{
+    display: flex;
+    padding-top: 15px;
+}
+
+h1
+{
+    display: flex;
+    font-size: 60px;
+    color: #f7ee79;
+    margin-top: 1%;
+    width: 250px;
+    
+    
+}
+
+
+img.logo
+{
+    float: right;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+ul.characterList
+{
+    list-style: none;
+    padding-bottom: 2%;
+}
+
+li
+{
+    margin:1%;
+}
+
+ul.nav
+{
+    display: flex;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    margin-top: 1%;
+    /* background-color: thistle; */
+}
+
+li.nav_list
+{
+    display: inline;
+    margin: 20px;
+    font-size: 30px;
+    font-weight:bolder;
+    /* background-color: thistle; */
+}
+
+div.flexbox
+{
+    display: flex;
+    height: 130px;
+    background-color: hsl(300, 24%, 80%,0.8);
+    margin-right: 5%;
+    margin-top: 1%;
+    
+}
+
+div.image
+{
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 1%;
+}
+
+div.bar
+{
+    /* margin-left: %; */
+    display: inline;
+    /* background-color: white; */
+}
+
+a:hover
+{
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 25px;
+    transition: 1s;
+}
+a
+{
+    color: rgb(0, 140, 175);
+    text-decoration: none;
+    padding: 10px;
+}
+/* .flexbox > div
+{
+    margin: 10px;
+    padding: 20px;
+} */
